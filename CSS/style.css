@@ -1,0 +1,162 @@
+body {
+  background-color: #1e1e1e;
+  width: 100%;
+  height: 100%; }
+
+.navBar--block {
+  width: 100%;
+  position: fixed;
+  background: solid;
+  background-color: black;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center; }
+  .navBar--block .navBar__element--li {
+    display: inline;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 3s;
+    justify-content: center; }
+  .navBar--block .navBar__element--liLogo {
+    display: inline;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .navBar--block .navBar__element--li:hover {
+    background-color: darkslateblue; }
+  .navBar--block .navBar__element--Logo {
+    display: inline;
+    position: fixed;
+    top: 0;
+    left: 0; }
+  .navBar--block .navBar__element--litext {
+    color: #00c8ff;
+    text-decoration: none; }
+
+.flexParent--block {
+  display: grid;
+  margin-top: 50px;
+  margin-left: 100px;
+  height: 500px;
+  width: 500px;
+  grid-column-gap: 50px;
+  grid-template-columns: repeat(2, 500px);
+  align-content: center; }
+  .flexParent--block .flexParent__element--bienvenido {
+    color: #00c8ff;
+    font-style: italic;
+    font-style: normal;
+    font-size: 15px;
+    padding-top: 100px; }
+  .flexParent--block .flexParent__element--aside {
+    padding-right: 10px;
+    align-content: flex-end; }
+
+.marcasConLasQueTrabajamos--block {
+  display: flex;
+  align-content: center;
+  justify-content: center; }
+  .marcasConLasQueTrabajamos--block .marcasConLasQueTrabajamos__element--titulo {
+    color: #00c8ff;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    flex-direction: column;
+    text-align: center; }
+  .marcasConLasQueTrabajamos--block .marcasConLasQueTrabajamos__element--logo {
+    padding-left: 20px;
+    padding-right: 20px; }
+
+.contactanos--block {
+  color: #00c8ff;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .contactanos--block .contactanos__element--titulo {
+    font-size: 30px;
+    text-align: center; }
+  .contactanos--block .contactanos__element--li {
+    color: #00c8ff;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+    align-self: center;
+    justify-self: center; }
+
+.mainProductosFlex--block {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center; }
+  .mainProductosFlex--block .mainProductosFlex__element--asideFiltros {
+    flex-direction: column; }
+  .mainProductosFlex--block .mainProductosFlex__element--tituloPerifericos {
+    color: #00c8ff;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px; }
+  .mainProductosFlex--block .mainProductosFlex__element--perifericos {
+    color: #00c8ff; }
+  .mainProductosFlex--block .mainProductosFlex__element--tituloMarcas {
+    color: #00c8ff;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px; }
+  .mainProductosFlex--block .mainProductosFlex__--marcasProductos {
+    color: #00c8ff;
+    font-size: 15px; }
+  .mainProductosFlex--block .mainProductosFlex__element--seccionProductos {
+    color: #00c8ff;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 100px;
+    display: grid;
+    height: 500px;
+    width: 500px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat 3, 100px; }
+
+.sobreNosotros--block {
+  margin-top: 100px;
+  color: #00c8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .sobreNosotros--block .sobreNosotros__element--titutlo {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 20px;
+    color: #00c8ff; }
+  .sobreNosotros--block .sobreNosotros__element--descripcion {
+    color: #00c8ff;
+    font-style: italic;
+    font-style: normal;
+    font-size: 15px;
+    height: 600px;
+    width: 1200px; }
+
+.registro--block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px; }
+  .registro--block .registro__element--CamposALlenar {
+    color: #00c8ff; }
+
+.login--block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px; }
+  .login--block .login__element--CamposALlenar {
+    color: #00c8ff; }
